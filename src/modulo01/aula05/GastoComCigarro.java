@@ -16,7 +16,7 @@ public class GastoComCigarro {
         System.out.println("Preço de uma carteira com 20 cigarros:");
         double precoCarteira = sc.nextDouble();
 
-        double totalGasto = (double) anos * 365 * cigarrosPorDia / 20 * precoCarteira;
+        double totalGasto = (double) ((anos * 365 * cigarrosPorDia) / 20) * precoCarteira;
 
         System.out.printf("Você já gastou aproximadamente R$%.2f em cigarros", totalGasto);
     }

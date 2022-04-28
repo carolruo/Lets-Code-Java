@@ -14,6 +14,7 @@ public class AgendaDeContatos {
         int telefones[] = new int[5];
         int idade[] = new int[5];
         int contadorContatos = 0;
+
         System.out.println("~~~~~~Bem-vindo à sua agenda~~~~~~");
 
         boolean controle = true;
@@ -57,8 +58,8 @@ public class AgendaDeContatos {
                             }
                         }
                     }
-
                     break;
+
                 case 3:
                     System.out.println("Digite o nome do contato que deseja remover:");
                     String nomeRemover = sc.nextLine();
@@ -66,10 +67,9 @@ public class AgendaDeContatos {
                     for (int i = 0; i < nomes.length; i++) {
                         if (nomeRemover.equals(nomes[i])) {
                             nomes[i] = null;
-                            System.out.println("Nome removido com sucesso.");
+                            System.out.println("Contato removido com sucesso.");
                             contadorContatos--;
                             excluido = true;
-                            break;
                         }
                     }
                     if (!excluido) {
@@ -85,8 +85,6 @@ public class AgendaDeContatos {
 
                 default:
                     System.out.println("Parece que você digitou uma opção inválida.");
-
-
             }
         }
     }
