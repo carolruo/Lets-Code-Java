@@ -60,5 +60,8 @@ public class CalculoSaltosAtletas {
         System.out.println("Melhor salto: " + maiorSalto + "\nPior salto: " + menorSalto);
         System.out.println();
         System.out.printf("Média dos demais saltos: %.2f", (somaSaltos - maiorSalto - menorSalto)/3);
+        System.out.println();
+        System.out.println("Resultado final:");
+        System.out.printf("%s: %.2f", atleta, (somaSaltos - maiorSalto - menorSalto)/3);
     }
 }
