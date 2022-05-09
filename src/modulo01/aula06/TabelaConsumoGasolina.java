@@ -43,7 +43,5 @@ public class TabelaConsumoGasolina {
             }
         }
         System.out.println("O menor consumo é do " + carroMenorConsumo.toLowerCase());
-
     }
-
 }

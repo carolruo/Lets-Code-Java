@@ -5,6 +5,7 @@ Para homens: (72.7*h) - 58
 Para mulheres: (62.1*h) - 44.7
 */
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class CalculoPesoPessoa {
@@ -24,7 +25,6 @@ public class CalculoPesoPessoa {
         } else {
             throw new Exception("Você digitou o sexo inválido.");
         }
-
         System.out.printf("Seu peso ideal é %.2fkg", pesoIdeal);
     }
 }

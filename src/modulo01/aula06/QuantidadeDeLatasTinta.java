@@ -12,8 +12,8 @@ public class QuantidadeDeLatasTinta {
         System.out.println("Entre com o tamanho em metros quadrados da área a seer pintada:");
         double area = sc.nextDouble();
 
-        double litrosNecessarios = area/3;
-        double latasNecessarias = litrosNecessarios/18;
+        double litrosNecessarios = area / 3;
+        double latasNecessarias = litrosNecessarios / 18;
         int latasInteiras = (int) Math.ceil(latasNecessarias);
         double precoTotal = latasInteiras * 80;
 

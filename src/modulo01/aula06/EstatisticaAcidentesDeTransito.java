@@ -38,26 +38,26 @@ public class EstatisticaAcidentesDeTransito {
 
             somaVeiculos += veiculosDePasseio[i];
 
-             if (veiculosDePasseio[i] < 2000) {
-                 somaAcidentes += acidentesTransitoComVitimas[i];
-                 cidadesPequena++;
-             }
+            if (veiculosDePasseio[i] < 2000) {
+                somaAcidentes += acidentesTransitoComVitimas[i];
+                cidadesPequena++;
+            }
 
-             if (menorIndice > acidentesTransitoComVitimas[i]) {
-                 menorIndice = acidentesTransitoComVitimas[i];
-                 cidadeMenosAcidentes = codigoCidade[i];
-             }
-             if (maiorIndice < acidentesTransitoComVitimas[i]) {
-                 maiorIndice = acidentesTransitoComVitimas[i];
-                 cidadeMaisAcidentes = codigoCidade[i];
-             }
+            if (menorIndice > acidentesTransitoComVitimas[i]) {
+                menorIndice = acidentesTransitoComVitimas[i];
+                cidadeMenosAcidentes = codigoCidade[i];
+            }
+            if (maiorIndice < acidentesTransitoComVitimas[i]) {
+                maiorIndice = acidentesTransitoComVitimas[i];
+                cidadeMaisAcidentes = codigoCidade[i];
+            }
         }
         System.out.printf("Maior índice de acidentes de trânsito é de %d, da cidade de código %d\n",
                 maiorIndice, cidadeMaisAcidentes);
         System.out.printf("Menor índice de acidentes de trânsito é de %d, da cidade de código %d\n",
                 menorIndice, cidadeMenosAcidentes);
 
-        System.out.println("Média de veículos nas cinco cidades juntas: " + (somaVeiculos/codigoCidade.length));
-        System.out.println("Média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio: " + (somaAcidentes/cidadesPequena));
+        System.out.println("Média de veículos nas cinco cidades juntas: " + (somaVeiculos / codigoCidade.length));
+        System.out.println("Média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio: " + (somaAcidentes / cidadesPequena));
     }
 }
