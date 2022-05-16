@@ -31,7 +31,7 @@ O sistema deve ter métodos para modificar um aluno, funcionário e professor.
 O sistema deve ter métodos para deletar um aluno, funcionário e professor.
 O sistema deve ter métodos de listagem para alunos, funcionários e professores.
 O sistema deve ter métodos para exibir os dados de um um aluno, funcionário ou professor específico.
-O sistema deve ter métodos para calcular a média de notas do aluno.
+O sistema deve ter métodos para calcular a média de notas do aluno. check
 
 Dicas finais
 Sempre tente entender como pode utilizar herança para reutilizar o máximo possível de códigos.
