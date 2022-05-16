@@ -14,7 +14,7 @@ public class Jogador {
     private int cartoesAmarelo;
     private int cartaoVermelho;
     private Boolean suspenso;
-    private Boolean treinou;
+    private Boolean treinou = false;
 
     public Jogador() {
 
@@ -33,13 +33,6 @@ public class Jogador {
         this.suspenso = suspenso;
     }
 
-    public Boolean isApto() {
-        if (cartoesAmarelo > 2 || cartaoVermelho > 0) {
-            suspenso = true;
-            return false;
-        }
-        return true;
-    }
 
     public void aplicarCartaoAmarelo(int cartao) {
         this.cartoesAmarelo += cartao;
@@ -54,6 +47,7 @@ public class Jogador {
     public void cumprirSuspensao() {
         this.cartaoVermelho = 0;
         this.cartoesAmarelo = 0;
+        suspenso = false;
     }
 
     public void sofrerLesao() {
@@ -85,14 +79,16 @@ public class Jogador {
         }
     }
 
+    public Boolean isApto() {
+        if (cartoesAmarelo > 2 || cartaoVermelho > 0) {
+            suspenso = true;
+            return false;
+        }
+        return true;
+    }
+
     @Override
     public String toString() {
-        String apto;
-        if (isApto()) {
-            apto = "PODE JOGAR";
-        } else {
-            apto = "SUSPENSO";
-        }
-        return posicao + ": " + numero + " - " + nome + " (" + apelido + ") - " + dataNascimento + " CONDIÇÃO: " + apto;
+        return posicao + ": " + numero + " - " + nome + " (" + apelido + ") - " + dataNascimento + " CONDIÇÃO: " + (isApto() ? "PODE JOGAR" : "SUSPENSO");
     }
 }
