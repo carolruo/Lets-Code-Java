@@ -1,4 +1,6 @@
-package modulo03.ex03_livraria;
+package modulo03.ex03_livraria.abstracts;
+
+import modulo03.ex03_livraria.utils.TipoProduto;
 
 public abstract class Produto {
 

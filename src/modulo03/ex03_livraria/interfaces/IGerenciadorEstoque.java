@@ -1,4 +1,7 @@
-package modulo03.ex03_livraria;
+package modulo03.ex03_livraria.interfaces;
+
+import modulo03.ex03_livraria.abstracts.Produto;
+import modulo03.ex03_livraria.utils.TipoProduto;
 
 import java.util.List;
 
