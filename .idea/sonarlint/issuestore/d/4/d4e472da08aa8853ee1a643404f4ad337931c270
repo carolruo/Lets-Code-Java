@@ -1,0 +1,19 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Î²’ð
+d
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ŠÀø¯
+V
+java:S1854";Remove this useless assignment to local variable "strings".(×ã·œùÿÿÿÿ
+W
+java:S1854"ARemove this useless assignment to local variable "csvListString".(È…ŸÐ
+P
+java:S1854":Remove this useless assignment to local variable "lerArq".(¬–‰«
+A
+java:S1481"+Remove this unused "lerArq" local variable.(¬–‰«
+V	java:S125"<This block of commented-out lines of code should be removed.(½¬³©ÿÿÿÿÿ
+H
+java:S1481"2Remove this unused "csvListString" local variable.(È…ŸÐ
+G
+java:S1481",Remove this unused "strings" local variable.(×ã·œùÿÿÿÿ
+P	java:S125 "<This block of commented-out lines of code should be removed.(ÌÀ€k
+V	java:S125#"<This block of commented-out lines of code should be removed.(ä¾òøÿÿÿÿ

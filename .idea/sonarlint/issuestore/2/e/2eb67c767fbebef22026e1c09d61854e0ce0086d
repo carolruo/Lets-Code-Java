@@ -1,0 +1,23 @@
+
+r
+java:S1488P"\Immediately return this expression instead of assigning it to the temporary variable "soma".(©Í
+}
+java:S1488Y"bImmediately return this expression instead of assigning it to the temporary variable "reprovados".(¶’‹‰üÿÿÿÿ
+‚
+java:S1488c"gImmediately return this expression instead of assigning it to the temporary variable "mediaNotaAlunos".(€ûâ‘şÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Î²’ğ
+X
+java:S1854?"=Remove this useless assignment to local variable "alunosSet".(­…°Åùÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ı¡
+M	java:S106#"9Replace this use of System.out or System.err by a logger.(¿‹™
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Õ©êúùÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(§©Ìüÿÿÿÿ
+M	java:S106)"9Replace this use of System.out or System.err by a logger.(Ô«ã
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(İ½­
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(¡œ›Ø
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(â²‘‚
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(ÇŞö
+I
+java:S1481?".Remove this unused "alunosSet" local variable.(­…°Åùÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(šïÃİıÿÿÿÿ
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(‘ÜÖ—8ğ©ƒğ˜0

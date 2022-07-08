@@ -1,0 +1,18 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Î²’ğ8–ÜüÕ™0
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ˆ‚”
+V	java:S125*"<This block of commented-out lines of code should be removed.(ˆ§€òøÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(šÄ‘§ùÿÿÿÿ
+V	java:S125."<This block of commented-out lines of code should be removed.(Ô‹áãüÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ûÕú»ùÿÿÿÿ
+V	java:S1252"<This block of commented-out lines of code should be removed.(Öù¸öøÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(Ÿèİêúÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(õ©Š“øÿÿÿÿ
+V	java:S125G"<This block of commented-out lines of code should be removed.(ìÁ»Óıÿÿÿÿ
+Q	java:S125V"<This block of commented-out lines of code should be removed.(·ÌÄû
+V	java:S125Z"<This block of commented-out lines of code should be removed.(¾øŠÎşÿÿÿÿ
+P
+java:S1612a":Replace this lambda with method reference 'Entry::getKey'.(²”ˆŞ
+P	java:S125h"<This block of commented-out lines of code should be removed.(Ö–’>
+S
+java:S1612n"8Replace this lambda with method reference 'Order::date'.(ê·’µúÿÿÿÿ
